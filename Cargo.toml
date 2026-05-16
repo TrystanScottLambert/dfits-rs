@@ -2,6 +2,11 @@
 name = "dfits-rs"
 version = "0.1.0"
 edition = "2024"
+readme = "README.md"
+description = "A rust rewrite of dfits, used to read fits headers."
+authors = ["Trystan Lambert <trystan.lambert@uwa.edu.au>"]
+license = "MIT"
+license-file = "LICENSE"
 
 [dependencies]
 clap = { version = "4.6.1", features = ["derive"] }
