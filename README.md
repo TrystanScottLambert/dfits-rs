@@ -53,7 +53,7 @@ sudo mv dfits-aarch64-apple-darwin /usr/local/bin/dfits
 ```
 Alternatively for older macs
 ```
-curl -L -o dfits https://github.com/trystanscottlambert/dfits/releases/download/v0.4.2/dfits-x86_64-apple-darwin
+curl -L -o dfits https://github.com/trystanscottlambert/dfits/releases/download/v0.1.0/dfits-x86_64-apple-darwin
 chmod +x dfits-x86_64-apple-darwin
 sudo mv dfits-x86_64-apple-darwin /usr/local/bin/dfits
 ```
@@ -61,7 +61,7 @@ sudo mv dfits-x86_64-apple-darwin /usr/local/bin/dfits
 ### Linux
 For Ubuntu/Debian
 ```
-curl -L -o dfits https://github.com/trystanscottlambert/dfits/releases/download/v0.4.2/dfits-x86_64-unknown-linux-gnu
+curl -L -o dfits https://github.com/trystanscottlambert/dfits/releases/download/v0.1.0/dfits-x86_64-unknown-linux-gnu
 chmod +x dfits-x86_64-unknown-linux-gnu
 sudo mv dfits-x86_64-unknown-linux-gnu /usr/local/bin/dfits
 ```
@@ -83,7 +83,7 @@ cargo build --release
 
 Move the binary into /usr/local/bin
 ```
-sudo mv targets/release/dfits /usr/local/bin/
+sudo mv target/release/dfits /usr/local/bin/
 ```
 
 ## Cargo
