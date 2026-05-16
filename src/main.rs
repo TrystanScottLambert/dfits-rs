@@ -133,7 +133,6 @@ fn read_one_card<R: Read>(reader: &mut R) -> Result<Option<Card>, DfitsError> {
     }
 }
 
-/// True if the card's keyword field starts with the given bytes.
 fn card_keyword_is(card: &Card, keyword: &[u8]) -> bool {
     card.starts_with(keyword)
 }
@@ -211,7 +210,6 @@ fn dump_fits_headers<R: Read>(
     }
 }
 
-/// Process one file. Returns true on success.
 fn process_file(path: &str, selection: HeaderSelection) -> bool {
     let file = match File::open(path) {
         Ok(handle) => handle,
