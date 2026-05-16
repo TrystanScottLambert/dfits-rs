@@ -198,7 +198,7 @@ fn dump_fits_headers<R: Read>(
 
         extension_index += 1;
         if selection.should_print_extension(extension_index) {
-            println!("====> xtension {} <====", extension_index);
+            println!("====> xtension {}", extension_index);
             print_header(&xtension_card, reader)?;
         } else {
             skip_to_end_of_header(reader)?;
