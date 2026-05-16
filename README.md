@@ -1,6 +1,8 @@
 # dfits-rs
 A rust rewrite of dfits
 
+![Demo](.github/dfits.gif)
+
 # Motivation
 `dfits` (and it's sister program `fitsort`) are amazingly useful pieces of software for batch processing the headers of many fits files. These were originally built in C by Nicolas Devillard (The original eclipse packages can be found on hit [github page](https://github.com/ndevilla/eclipse)). 
 
